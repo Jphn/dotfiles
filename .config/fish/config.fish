@@ -48,3 +48,5 @@ fish_add_path /home/jphn/.deno/bin
 
 # export DENO_INSTALL="/home/jphn/.deno"
 # export PATH="$DENO_INSTALL/bin:$PATH"
+
+zoxide init fish | source
