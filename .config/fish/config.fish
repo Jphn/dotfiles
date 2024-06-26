@@ -32,6 +32,8 @@ alias lt='eza -al --sort=modified'
 alias freload='. ~/.config/fish/config.fish'
 alias fconfig='nvim ~/.config/fish/config.fish'
 
+alias pulsefix='systemctl --user restart pulseaudio && systemctl --user restart pulseaudio'
+
 alias act='gh act'
 
 alias lg='lazygit'
