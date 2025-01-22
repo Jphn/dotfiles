@@ -10,3 +10,11 @@ It's important to note that I'm using **stow** to link my files to the location 
 - tmux
 - nvim ([LazyVim](www.lazyvim.org))
 - fish
+
+## How to use
+
+Clone the repository then inside of the folder run:
+
+```bash
+$ stow --adopt .
+```
