@@ -48,8 +48,20 @@ alias dcl='docker compose logs'
 
 fish_add_path /home/jphn/.spicetify
 fish_add_path /home/jphn/.deno/bin
+fish_add_path /home/jphn/.config/composer/vendor/bin
+fish_add_path /home/.cargo/bin
+fish_add_path /home/jphn/.config/composer/vendor/bin
+fish_add_path /home/jphn/Downloads/swift-6.0.3-RELEASE-ubuntu24.04/usr/bin
+fish_add_path -g -p /home/jphn/development/flutter/bin
 
 # export DENO_INSTALL="/home/jphn/.deno"
 # export PATH="$DENO_INSTALL/bin:$PATH"
+
+# Android SDK
+set --export ANDROID_HOME $HOME/Android/Sdk
+set -gx PATH $ANDROID_HOME/emulator $PATH
+set -gx PATH $ANDROID_HOME/tools $PATH
+set -gx PATH $ANDROID_HOME/tools/bin $PATH
+set -gx PATH $ANDROID_HOME/platform-tools $PATH
 
 zoxide init fish | source
