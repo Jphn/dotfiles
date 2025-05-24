@@ -39,6 +39,7 @@ alias act='gh act'
 alias lg='lazygit'
 
 alias q='exit 0'
+alias xo='xdg-open'
 
 alias dcu='docker compose up'
 alias ddcu='docker compose -f docker-compose.dev.yaml up'
