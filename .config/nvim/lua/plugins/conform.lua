@@ -62,6 +62,8 @@ return {
 				["typescriptreact"] = { "biome" },
 				["markdown"] = { "biome" },
 				["json"] = { "biome" },
+				python = { "pyright" },
+				dart = { "ast-grep" },
 			},
 			-- The options you set here will be merged with the builtin formatters.
 			-- You can also define any custom formatters here.
